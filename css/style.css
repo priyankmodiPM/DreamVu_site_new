@@ -416,6 +416,7 @@ h6 {
 
 .section-header{
   margin-bottom: 8%;
+  background: #ffffff00;
 }
 .section-header h3 {
   font-size: 32px;
@@ -496,14 +497,39 @@ h6 {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #111;
+  /* line-height: 200%; */
 }
 
 #facts .facts-img {
   text-align: center;
   padding-top: 30px;
+  /* height: 80%; */
 }
 
+#facts .btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  /* margin: 10px; */
+  color: #fff;
+  background: #186fd2;
+}
 
+#facts .btn-get-started:hover {
+  background: #fff;
+  color: #1862d2;
+}
+
+#facts .image_platform{
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
 /* Services Section
 --------------------------------*/
 
@@ -515,6 +541,8 @@ h6 {
 
 #services .box {
   margin-bottom: 30px;
+  padding-right: 100px;
+  /* margin-left: 10px;  */
 }
 
 #services .icon {
