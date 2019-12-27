@@ -103,6 +103,7 @@ h6 {
   width: 80%;
   max-width: 100%;
   margin: 0em auto;
+  margin-bottom: 4%;
 }
 .cd-image-container video {
   display: block;
@@ -125,6 +126,12 @@ h6 {
   -webkit-transition: -webkit-transform 0.3s 0.7s, opacity 0.3s 0.7s;
   -moz-transition: -moz-transform 0.3s 0.7s, opacity 0.3s 0.7s;
   transition: transform 0.3s 0.7s, opacity 0.3s 0.7s;
+}
+
+.product-content h1{
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 3%;
 }
 .cd-image-label.is-hidden {
   visibility: hidden;
@@ -257,10 +264,10 @@ h6 {
 	z-index: 3;
 }
 
-
+/* 
 .section-header {
-  margin-bottom: 40px;
-}
+  margin-bottom: 80px;
+} */
 
 /*--------------------------------------------------------------
 # Intro Section
@@ -329,7 +336,7 @@ h6 {
 }
 
 #intro p {
-  width: 80%;
+  width: 60%;
   margin: 0 auto 30px auto;
   color: #fff;
 }
@@ -407,6 +414,9 @@ h6 {
 /* Sections Header
 --------------------------------*/
 
+.section-header{
+  margin-bottom: 8%;
+}
 .section-header h3 {
   font-size: 32px;
   color: #111;
@@ -441,7 +451,7 @@ h6 {
 
 .section-header p {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   color: #333;
 }
 
@@ -450,9 +460,9 @@ h6 {
 --------------------------------*/
 
 #facts {
-  background: url("../img/facts-bg.jpg") center top no-repeat fixed;
+  background: url("../images/facts-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 0 0;
+  padding: 40px 0 0 0;
   position: relative;
 }
 
@@ -498,9 +508,9 @@ h6 {
 --------------------------------*/
 
 #services {
-  background: #fff;
+  background: rgba(255, 255, 255, 0.486);
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 40px 0 40px 0;
 }
 
 #services .box {
@@ -520,13 +530,14 @@ h6 {
 
 #services .title {
   margin-left: 60px;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 #services .title a {
   color: #111;
+  font-weight: 500;
 }
 
 #services .box:hover .title a {
@@ -541,13 +552,13 @@ h6 {
 }
 
 
-/* About Us Section
+/* Media Articles Section
 --------------------------------*/
 
 #about {
-  background: url("images/about-bg.jpg") center top no-repeat fixed;
+  background: url("../images/about-bg.jpg") center top no-repeat fixed;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 40px 0 40px 0;
   position: relative;
 }
 
@@ -647,7 +658,6 @@ h6 {
 }
 /*------------------------------*/
 
-
 @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
@@ -659,7 +669,7 @@ h6 {
 }
 
 .img{
-  height : 300px;
+  height : 200px;
   display: flex;
 }
 
