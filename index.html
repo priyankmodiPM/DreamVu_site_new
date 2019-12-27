@@ -1,0 +1,566 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>DreamVu</title>
+  <meta name="description" content="DreamVu">
+  <meta name="author" content="Ravi Piplani">
+
+	<meta property="og:title" content="DreamVu" />
+	<meta property="og:image" content="http://www.dreamvu.com/images/meta.jpg" />
+	
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="At DreamVu we are building a unified omni-stereo camera platform for disrupting high value machine vision and human vision markets. Our motto is to Capture Reality like Never Before." />
+	<meta property="og:url" content="http://www.dreamvu.com/" />
+
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- <link rel="stylesheet" href="css/normalize.css?v=0.1"> -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.css?v=0.1">` -->
+  <link rel="stylesheet" href="css/main.css?v=0.2">
+  <!-- <link rel="stylesheet" href="css/home.css?v=0.1"> -->
+  <link rel="stylesheet" href="css/style.css"> 
+
+  
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <!-- <link href="css/style.css" rel="stylesheet"> -->
+
+  <!-- favicons & theme -->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <meta name="theme-color" content="#2d4ea2">
+
+  <!-- external fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700|Open+Sans:300,400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+</head>
+<style>
+  .media-coverage .media-logo-wr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 200px;
+    margin: 60px 35px 0 35px;
+    min-height: 100px;
+  }
+  .media-coverage .media-logo-wr .media-logo {
+    width: 100%;
+    filter: grayscale(100%);
+  }  .productHeader{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+.degree {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+  .column{
+    float: left;
+    width: 50%;
+  }
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.productSection{
+  background: none;
+}
+.lowerRow::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.WYCD{
+  width: 24%;
+  padding: 2%;
+  margin: 3%;
+}
+.WYCD_row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.button {
+    background-image: linear-gradient(to right, #2E50A4 , #3D92D1);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left:40%;
+    font-family: calibri;
+    border-radius: 5px;
+}
+
+/*.column_WYCD{
+  float: left;
+    width: 100%;
+}*/
+
+
+</style>
+<script> 
+$(function(){
+  $("#header").load("fragments/header.html"); 
+  $("#footer").load("fragments/footer.html"); 
+});
+</script> 
+<body>
+  <!-- ================================
+          Intro Section 
+      ==============================-->
+  <section id="intro">
+      <div class="intro-container">
+        <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  
+          <ol class="carousel-indicators"></ol>
+  
+          <div class="carousel-inner" role="listbox">
+  
+            <div class="carousel-item active">
+              <div class="carousel-background"><img src="images/Surround_Situational_Awareness_With_Mapping.png" alt=""></div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2>Surround Situational Awareness</h2>
+                  <p>DreamVu has developed the world's first omni-stereo camera hardware and software platform for unifying human and machine vision. Our technology has a billion fold advantage in capturing and processing visual information in comparison to the current solutions available in the market. With a wide range of applications DreamVu is set to revolutionize the way we capture reality.</p>
+                  <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+                  <a href="images/spec_10cm+dimensions+weight_edited(lbs).pdf" class="btn-get-started scrollto">Technical Specifications</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="carousel-background"><img src="images/Telerobotics.png" alt=""></div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2>Teleoperation</h2>
+                  <p>DreamVu has developed the world's first omni-stereo camera hardware and software platform for unifying human and machine vision. Our technology has a billion fold advantage in capturing and processing visual information in comparison to the current solutions available in the market. With a wide range of applications DreamVu is set to revolutionize the way we capture reality.</p>
+                  <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+                  <a href="images/spec_10cm+dimensions+weight_edited(lbs).pdf" class="btn-get-started scrollto">Technical Specifications</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="carousel-background"><img src="images/Close_Range_Obstacle_Avoidance_With_Detection.png" alt=""></div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2>Close Range Obstacle Avoidance</h2>
+                  <p>DreamVu has developed the world's first omni-stereo camera hardware and software platform for unifying human and machine vision. Our technology has a billion fold advantage in capturing and processing visual information in comparison to the current solutions available in the market. With a wide range of applications DreamVu is set to revolutionize the way we capture reality.</p>
+                  <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+                  <a href="images/spec_10cm+dimensions+weight_edited(lbs).pdf" class="btn-get-started scrollto">Technical Specifications</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="carousel-background"><img src="images/Autonomous_Navigation-With_Robot_Path.png" alt=""></div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2>Autonomous Navigation in Dynamic Environments</h2>
+                  <p>DreamVu has developed the world's first omni-stereo camera hardware and software platform for unifying human and machine vision. Our technology has a billion fold advantage in capturing and processing visual information in comparison to the current solutions available in the market. With a wide range of applications DreamVu is set to revolutionize the way we capture reality.</p>
+                  <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+                  <a href="images/spec_10cm+dimensions+weight_edited(lbs).pdf" class="btn-get-started scrollto">Technical Specifications</a>
+                </div>
+              </div>
+            </div>
+  
+            <div class="carousel-item">
+              <div class="carousel-background"><img src="images/Safety-Pink_Bounding_Box.png" alt=""></div>
+              <div class="carousel-container">
+                <div class="carousel-content">
+                  <h2>Safety and Perimeter Security</h2>
+                  <p>DreamVu has developed the world's first omni-stereo camera hardware and software platform for unifying human and machine vision. Our technology has a billion fold advantage in capturing and processing visual information in comparison to the current solutions available in the market. With a wide range of applications DreamVu is set to revolutionize the way we capture reality.</p>
+                  <!-- <a href="#featured-services" class="btn-get-started scrollto">Get Started</a> -->
+                  <a href="images/spec_10cm+dimensions+weight_edited(lbs).pdf" class="btn-get-started scrollto">Technical Specifications</a>
+                </div>
+              </div>
+            </div>
+              
+          <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+  
+          <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+  
+        </div>
+      </div>
+    </section><!-- #intro -->
+
+  <!-- ============================
+    Platform Section
+  ================================= -->
+  <section id="facts" class="wow fadeIn">
+    <div class="container">
+      <header class="section-header">
+        <h3>Our Platform</h3>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      </header>
+    </div>
+    <div class="container">
+      <div class="block">
+        <div class="row">
+          <div class="col-12 col-md-8 text-justify">
+            <p>DreamVu provides a fully integrated hardware and software platform for advanced sensing and perception 
+              for autonomously operating machines. The platform will enable users to leverage the advantages of
+               DreamVu's patented hardware, state-of-the art software and unique data. The platform is compatible 
+               with most of the robotics and computer vision packages used in the industry. It is a plug and play 
+               system with customization options available as well.    
+               
+               <br><br>Schedule a meeting with our sales team to know more about the platform and how it can impact your industry/use-case. 
+               <a class="btn bg-gradient--accent inline-block margin-top-15 animate-bottom-slidein" href="#demo">Watch Demo</a>
+              
+              </p>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. -->
+            </p>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <img class="rounded img-fluid" src="images/product.jpg" height="250">
+          </div>
+        </div>
+    </div>
+    </div>
+  </section>
+  <!-- end-platform -->
+
+  <!--==========================
+    Features Section
+  ============================-->
+  <section id="services">
+      <div class="container">
+
+        <header class="section-header wow fadeInUp">
+          <h3>Features</h3>
+          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
+        </header>
+      
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-ios-bolt"></i></div>
+            <h4 class="title"><a href="">Faster</a></h4>
+            <p class="description">Single shot 360° RGBD <br> No GPU required <br> 100 fps</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-pricetag"></i></div>
+            <h4 class="title"><a href="">Cheaper</a></h4>
+            <p class="description">Single CMOS <br> Embedded processing <br> < $50 </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-android-lock"></i></div>
+            <h4 class="title"><a href="">Reliable</a></h4>
+            <p class="description">Robust Calibration, Single rigid body<br> No Synchronization, No Occlusions <br> Unmatched 80° vertical FOV </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-arrow-graph-up-right"></i></div>
+            <h4 class="title"><a href="">Scalable</a></h4>
+            <p class="description">Flexibility in size <br> Customisable Optics <br> ⌀ 2cm </p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-power"></i></div>
+            <h4 class="title"><a href="">Efficient</a></h4>
+            <p class="description">Ultra low power <br> Minimal hardware requirement <br> < 5W</p>
+          </div>
+          <div class="col-lg-4 col-md-6 box wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="icon"><i class="ion-cash"></i></div>
+            <h4 class="title"><a href="">Low Cost</a></h4>
+            <p class="description">Lorem ipsum dolor sit applet<br>Lorem ipsum dolor sit applet<br>Lorem ipsum dolor sit applet</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #services -->
+    <!--==========================
+      Media Articles Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Media Articles</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4 wow fadeInUp">
+            <div id="edit_1" class="about-col">
+              <div class="img">
+                <div class="img_media">
+                  <img id="media_1" src="images/about-mission.jpg" alt="" class="img-fluid">
+                  <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                </div>
+              </div>
+              <h2 class="title"><a href="#">Article 1</a></h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp">
+            <div id="edit_2" class="about-col">
+              <div class="img">
+                <div class="img_media">
+                  <img id="media_1" src="images/about-mission.jpg" alt="" class="img-fluid">
+                  <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                </div>
+              </div>
+              <h2 class="title"><a href="#">Article 1</a></h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 wow fadeInUp">
+            <div id="edit_3" class="about-col">
+              <div class="img">
+                <div class="img_media">
+                  <img id="media_1" src="images/about-mission.jpg" alt="" class="img-fluid">
+                  <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+                </div>
+              </div>
+              <h2 class="title"><a href="#">Article 1</a></h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #about -->
+  <!-- ========================================================================================== -->
+
+
+    <style>
+         	.wrapper {
+		    text-align: center;
+		}
+		
+		.button {
+		    position: absolute;
+		    left: 50%;
+		}
+    </style>
+
+    <section class="page product" style="margin-top:7%;">
+
+    <div class="cd-image-container" id="demo">
+		<!-- <img  width="100%" src="images/img/rgb.jpg" alt="RGB"> -->
+		<video width="100%"  controls playsinline autoplay muted loop>
+			<source	src="images/vi_demo.mp4"   width="100%" style="object-fit: fill;" >
+		</video>
+		<span class="cd-image-label" data-type="original">RGB</span>
+
+		<div class="cd-resize-img"> 
+			<!--  <img   width="100%" src="images/img/depth.jpg" alt="Modified Image"> -->
+			<video width="100%"  controls playsinline autoplay muted loop>
+				<source	src="https://dreamvu.com/depth_.mp4" width="100%" style="object-fit: fill;" >
+			</video>
+			<span class="cd-image-label" data-type="modified">Depth</span>
+		</div>
+
+		<span class="cd-handle"></span>
+	</div>
+	</section> 
+
+    <section class="footer">
+    	<div id="footer"></div>
+    </section>
+  </div>  
+   <!-- JavaScript Libraries -->
+   <script src="lib/jquery/jquery.min.js"></script>
+   <script src="lib/jquery/jquery-migrate.min.js"></script>
+   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <script src="lib/easing/easing.min.js"></script>
+   <script src="lib/superfish/hoverIntent.js"></script>
+   <script src="lib/superfish/superfish.min.js"></script>
+   <script src="lib/wow/wow.min.js"></script>
+   <script src="lib/waypoints/waypoints.min.js"></script>
+   <script src="lib/counterup/counterup.min.js"></script>
+   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+   <script src="lib/isotope/isotope.pkgd.min.js"></script>
+   <script src="lib/lightbox/js/lightbox.min.js"></script>
+   <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+
+  <script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script> 
+<script src="js/main.js"></script>
+  <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>-->
+  <script src="js/script.js?v=0.1"></script>
+
+  <script type="text/javascript">
+    $.ajaxSetup({ cache: false });
+
+    $(document).ready(function () {
+
+      var imagesToPreload = [
+        "images/industries/entertainment_s.jpg",
+        "images/industries/games_s.jpg",
+        "images/industries/health_s.jpg",
+        "images/industries/robotics_s.jpg",
+        "images/industries/smart_city_s.jpg"
+      ];
+      preloadImages(imagesToPreload);
+
+      $('.container').addClass('loaded');
+      $('.container').one('transitionend', function(e){
+        startCircularCarousel();
+        $('.home-page .punch-line h3').addClass('animate--show');
+        $('.home-page .punch-line h3').one('transitionend', function(e){
+          $('.home-page .punch-line .btn').addClass('animate--show');
+        });
+        $('.home-page .circular-carousel .item').one('transitionend', function(e) {
+          
+        });
+      });
+
+      var elementstoAnimate = [
+        ".home-page .offerings .offering", ".product-features li", ".industries .page-title", ".media-coverage .page-title", ".media-coverage .media-logo-wr"
+      ]
+      $(this).on('scroll', function() {
+        elementstoAnimate.forEach(function(ele) {
+          if($(ele).visible(true)) {
+            if(ele == '.home-page .offerings .offering' || ele == '.product-features li') {
+              chainAnimation(ele, 0, $(ele).length);
+            }
+            else if (ele == '.industries .page-title') {
+              $(ele).addClass('animate--show');
+              $(ele).one('transitionend', function(e){
+                $('.industries .page-brief').addClass('animate--show');
+              });
+            }
+            else {
+              $(ele).addClass('animate--show');
+            }
+          }
+        });
+      });
+
+      $('.industry-types .nav-arrow--left').fadeOut();
+      var currentIndustryIndex = 1;
+      var totalIndustryCount = 5;
+      $('body').on('click', '.industry-types .nav-arrow--right', function() {
+        if(currentIndustryIndex == 1) {
+          $('.industry-types .nav-arrow--left').fadeIn();
+        }
+        currentIndustryIndex++;
+        if(currentIndustryIndex == totalIndustryCount) {
+          $('.industry-types .nav-arrow--right').fadeOut();
+        }
+        $('.industries .industry-types .type').eq(0).css('margin-left', (-1 * (currentIndustryIndex - 1) * 100) + '%');
+        $('.industries .industry-types .type').eq(currentIndustryIndex - 1).click();
+      });
+      $('body').on('click', '.industry-types .nav-arrow--left', function() {
+        if(currentIndustryIndex == totalIndustryCount) {
+          $('.industry-types .nav-arrow--right').fadeIn();
+        }
+        currentIndustryIndex--;
+        if(currentIndustryIndex == 1) {
+          $('.industry-types .nav-arrow--left').fadeOut();
+        }
+        $('.industries .industry-types .type').eq(0).css('margin-left', (-1 * (currentIndustryIndex - 1) * 100) + '%');
+        $('.industries .industry-types .type').eq(currentIndustryIndex - 1).click();
+      });
+    });
+
+    $('body').on('click', '.industry-types .type', function(){
+      $('.industry-types .type').removeClass('selected');
+      $(this).addClass('selected');
+      var id = $('.industry-detail');
+      id.find('.image img').prop('src', $(this).data('image'));
+      id.find('.desc h3').text($(this).data('title'));
+      id.find('.desc p span').html($(this).data('desc'));
+      id.find('.desc p a').prop('href', $(this).data('link'));
+    });
+    $('.industry-types .type').eq(0).click();
+
+    $('body').on('mouseover', '.industry-types .type', function(){
+      $('.industry-types .type').removeClass('selected');
+      $(this).addClass('selected');
+      var id = $('.industry-detail');
+      id.find('.image img').prop('src', $(this).data('image'));
+      id.find('.desc h3').text($(this).data('title'));
+      id.find('.desc p span').html($(this).data('desc'));
+      id.find('.desc p a').prop('href', $(this).data('link'));
+    });
+
+    function startCircularCarousel(){
+      var i = 0;
+      $('.home-page .circular-carousel .item').eq(i).addClass('animate--show');
+      i++;
+      setInterval(function(){
+        $('.home-page .circular-carousel .item').removeClass('animate--show');
+        $('.home-page .circular-carousel .item').eq(i).addClass('animate--show');
+        i++;
+        if(i == 4){
+          i = 0;
+        }
+      }, 3000);
+    }
+
+    function chainAnimation(ele, index, length) {
+      $(ele).eq(index).addClass('animate--show');
+      $(ele).eq(index).one('transitionend', function(e){
+        index++;
+        if (index < length) {
+          chainAnimation(ele, index, length);
+        }
+        else {
+          return;
+        }
+      });
+    }
+  </script>
+
+</body>
+
+</html>
