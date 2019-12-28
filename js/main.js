@@ -118,6 +118,7 @@ jQuery(document).ready(function($){
     
 });
 
+
 (function ($) {
   // Intro carousel
   var introCarousel = $(".carousel");
