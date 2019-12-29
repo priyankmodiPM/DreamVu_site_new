@@ -19,25 +19,24 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- <link rel="stylesheet" href="css/normalize.css?v=0.1"> -->
-  <!-- <link rel="stylesheet" href="css/bootstrap.css?v=0.1">` -->
-  <link rel="stylesheet" href="css/main.css?v=0.2">
-  <!-- <link rel="stylesheet" href="css/home.css?v=0.1"> -->
-  <link rel="stylesheet" href="css/style.css"> 
-
+  
   
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
+  
   <!-- Main Stylesheet File -->
-  <!-- <link href="css/style.css" rel="stylesheet"> -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/home.css">
 
   <!-- favicons & theme -->
   <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
@@ -143,6 +142,7 @@ $(function(){
   $("#footer").load("fragments/footer.html"); 
 });
 </script> 
+
 <body>
   <!-- ================================
           Intro Section 
@@ -262,13 +262,11 @@ $(function(){
     <div class="container">
       <div class="block">
         <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid" src="images/pal_robot.jpg">
+          </div>
 
-          <div class="col-md-6 col-md-pull-6">
-              <img width="100%" src="images/pal_robot.jpg" display="flex">
-              <br><br><br>
-            </div>
-
-          <div class="col-md-6 col-md-pull-6 text-justify">
+          <div class="col-md-6 text-justify">
             <p>DreamVu provides a fully integrated hardware and software platform for advanced sensing and perception 
               for autonomously operating machines. The platform will enable users to leverage the advantages of
                DreamVu's patented hardware, state-of-the art software and unique data. The platform is compatible 
@@ -280,13 +278,18 @@ $(function(){
                 totam, consectetur laborum eos quidem aliquam quod fugiat voluptatibus nulla voluptatum nemo alias 
                 tempore ipsam magni laboriosam quos pariatur repellat!
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptates alias repudiandae dignissimos
-                aliquid deleniti culpa, nisi maxime fugiat vero id impedit voluptatibus optio! 
-               <br><br>Schedule a meeting with our sales team to know more about the platform and how it can impact your industry/use-case. </p>
-               <!-- <br> -->
-               <a class="btn-get-started" href="#demo">Schedule Meeting</a>
+                aliquid deleniti culpa, nisi maxime fugiat vero id impedit voluptatibus optio!</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 offset-md-6">            
+              <p>Schedule a meeting with our sales team to know more about the platform and how it can impact your industry/use-case. </p>
+              <!-- <br> -->
+              <a class="btn-get-started" href="#demo">Schedule Meeting</a>
                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. -->
             </p>
           </div>
+        </div> 
 
         </div>
       </div>
