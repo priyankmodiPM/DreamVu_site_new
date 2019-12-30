@@ -451,7 +451,7 @@ ul li {
 	margin-bottom: 0;
 	width: 60%;
 }
-
+/* 
 header.nav--open .hamburger span {
 	-webkit-transition: all 230ms ease-in;
 	-moz-transition: all 230ms ease-in;
@@ -579,7 +579,7 @@ header .hamburger {
 
 .header.dark .logo .logo-white {
 	display: block;
-}
+} */
 
 .footer {
 	padding: 0;
@@ -665,7 +665,7 @@ footer .copyright {
 	.header .hamburger {
 		display: none;
 	}
-	.header .content-wrapper {
+	/* .header .content-wrapper {
 		padding: 0;
 	}
 	header {
@@ -690,7 +690,7 @@ footer .copyright {
 	}
 	header nav a:first-child {
 		margin-left: 0;
-	}
+	} */
 	.footer {
 		padding: 80px 0 0 0;
 	}
