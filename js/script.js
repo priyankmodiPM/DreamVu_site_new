@@ -1,6 +1,6 @@
-$.get( "fragments/header.html", function( data ) {
-	$("#header").replaceWith(data);
-});
+// $.get( "fragments/header.html", function( data ) {
+// 	$("#header").replaceWith(data);
+// });
 	$.get( "fragments/footer.html", function( data ) {
 	$("#footer").replaceWith(data);
 });

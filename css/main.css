@@ -26,6 +26,7 @@ p.para {
 p.desc {
 	font-size: 14px;
 	line-height: 1.8em;
+	padding-left: 3%;
 }
 
 h6 {
@@ -425,6 +426,8 @@ ul li {
 
 .logo img.desktop {
 	height: inherit;
+	padding-left: 2%;
+	/* margin-left: 20%; */
 }
 
 .hamburger {
@@ -534,6 +537,7 @@ header nav a {
 	text-align: center;
 	padding: 10px 0;
 	color: #2b2b2b;
+	/* margin-left: 10px; */
 }
 
 header.nav--open {
@@ -666,7 +670,7 @@ footer .copyright {
 		display: none;
 	}
 	.header .content-wrapper {
-		padding: 0;
+		padding: 10px 10px 10px 10px;
 	}
 	header {
 		height: 65px;
