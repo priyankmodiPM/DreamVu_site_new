@@ -61,6 +61,7 @@ header h1 {
 --------------------------------------------------------------*/
 
 #header {
+  background:rgba(32, 32, 32, 0.376);
   padding: 10px 0;
   height: 72px;
   position: fixed;
@@ -626,7 +627,7 @@ h6 {
 }
 
 #services .description {
-  font-size: 14px;
+  font-size: 18px;
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
@@ -802,8 +803,23 @@ h6 {
   }
 }
 
+@media screen and (max-width: 768px){
+  #nav-menu-container {
+    display: none;
+  }
+
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
 .margin-bottom-15 {
 	margin-bottom: 15px !important;
+}
+
+
+.margin-top-10 {
+	margin-top: 10px !important;
 }
 
 .block {
@@ -1055,4 +1071,8 @@ body.mobile-nav-active #mobile-nav {
 
 body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
+}
+
+.row_footer{
+  padding-top: 2%;
 }
