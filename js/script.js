@@ -58,3 +58,19 @@ function preloadImages(images){
     i.src = url + img;
 	});
 }
+
+
+var top1 = $('#facts').offset().top;
+var top2 = $('#services').offset().top;
+var top3 = $('#about').offset().top;
+
+$(document).scroll(function() {
+  var scrollPos = $(document).scrollTop();
+  if (scrollPos >= top1 && scrollPos < top2) {
+    $('#change').css('background-color', '#fff');
+  } else if (scrollPos >= top2 && scrollPos < top3) {
+    $('#change').css('background-color', 'rgb(236, 0, 0)');
+  } else if (scrollPos >= top3) {
+    $('#change').css('background-color', 'rgb(236, 0, 0)');
+  }
+})(jQuery);
